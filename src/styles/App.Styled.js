@@ -7,12 +7,11 @@ export const StyledForm = styled.form`
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
+
   background-color: lightgrey;
   padding: 20px;
 `;
 export const StyledTitle = styled.h1`
-  /* margin-top: 20px; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -34,7 +33,7 @@ export const StyledContact = styled.div`
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
+
   background-color: lightgrey;
   padding: 20px;
 `;
