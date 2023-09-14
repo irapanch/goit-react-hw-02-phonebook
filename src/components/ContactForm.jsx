@@ -47,7 +47,7 @@ class ContactForm extends Component {
           required
           value={number}
           onChange={this.handleChangeInput}
-          placeholder="Phone number"
+          placeholder="XXX-XXX-XXXX"
         />
 
         <StyledBtn type="submit">Add Contact</StyledBtn>
@@ -59,5 +59,4 @@ export default ContactForm;
 
 ContactForm.propTypes = {
   addContact: PropTypes.func,
-  onSubmit: PropTypes.func,
 };
